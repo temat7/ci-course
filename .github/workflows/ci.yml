@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Run markdown lint
         run: |
-          npm install remark_cli remark_preset_lint_consistent
+          npm install remark_cli_remark_preset_lint_consistent
           npx remark . --use remark_preset_lint_consistent --frail    
     
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
